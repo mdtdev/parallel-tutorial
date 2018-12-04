@@ -16,9 +16,9 @@ import sys
 WINDOWS = sys.platform.startswith('win')
 
 if WINDOWS:
-    dask.set_options(get=dask.threaded.get)
+    dask.config.set(get=dask.threaded.get)
 else:
-    dask.set_options(get=dask.multiprocessing.get)
+    dask.config.set(get=dask.multiprocessing.get)
 
 here = os.path.dirname(__file__)
 os.makedirs(os.path.join(here, 'data', 'minute'), exist_ok=True)
