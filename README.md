@@ -1,3 +1,6 @@
+# This Fork
+This fork exists so that I can pull parts of this tutorial out that do not depend on the now hard to get financial data used in most of the examples. So I am pulling out the toy examples and trying to expand on the ML examples.
+
 # Parallel Python: Analyzing Large Datasets
 
 [![Join the chat at https://gitter.im/pydata/parallel-tutorial](https://badges.gitter.im/pydata/parallel-tutorial.svg)](https://gitter.im/pydata/parallel-tutorial?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
